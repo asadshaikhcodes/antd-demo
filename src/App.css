@@ -28,6 +28,31 @@
   color: #61dafb;
 }
 
+.ant-layout-header,
+.ant-layout-footer {
+  background: transparent;
+  padding: 0px;
+}
+
+.ant-layout-content {
+  background: transparent;
+}
+
+.ant-layout-sider {
+  background: transparent;
+  width: 100% !important;
+  flex: none !important;
+  max-width: 100% !important;
+}
+
+.ant-layout{
+  background:transparent;
+}
+
+.ant-layout-has-sider{
+  height: 100% !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
